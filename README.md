@@ -41,7 +41,7 @@ $ python3 pro-osint.py --check                 # verify tool availability
 - **Smart Target Detection** – Automatically identifies usernames, emails, phone numbers, names, and domains.
 - **Pivot Automation** – Extracts new emails, usernames, or names from results and recursively investigates them (-P flag).
 - **Rate Limiting & Caching** – Avoids IP bans and speeds up repeated searches.
-- **MultiFormat Reports** – Export full investigation as JSON, TXT, or HTML (collapsible findings, pivot suggestions).
+- **Multi Format Reports** – Export full investigation as JSON, TXT, or HTML (collapsible findings, pivot suggestions).
 - **Fallback Mechanisms** – Gracefully handles missing external tools and uses pure Python native modules where possible.
 - **Built in Setup & Update** – --setup installs all dependencies (Sherlock, Maigret, Holehe, etc.), --update upgrades them.
 
