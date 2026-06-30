@@ -27,7 +27,7 @@ $ python3 pro-osint.py
 $ python3 pro-osint.py johndoe                 # username scan (standard mode)
 $ python3 pro-osint.py -m deep johndoe         # deep scan (more modules)
 $ python3 pro-osint.py -t email john@doe.com   # force email type
-$ python3 pro-osint.py -r sherlock, johndoe    # run specific modules
+$ python3 pro-osint.py -r sherlock, johndoe     # run specific modules
 $ python3 pro-osint.py -P johndoe              # auto investigate discovered pivots
 $ python3 pro-osint.py --setup                 # install all dependencies
 $ python3 pro-osint.py --check                 # verify tool availability
