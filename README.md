@@ -1,13 +1,13 @@
 # PRO-OSINT
-![PRO-OSINT preview](pro-osint.jpg)
+![PRO-OSINT preview](Pro-osint.jpg)
 
 <p align="center">
-  <strong>Cyberpunk OSINT Framework · Zero API Keys · 40+ Modules</strong><br>
-  <em>"The grid never forgets, but you can always disconnect." – Mr.X</em>
+  <strong>Cyberpunk OSINT Framework Â· Zero API Keys Â· 40+ Modules</strong><br>
+  <em>"The grid never forgets, but you can always disconnect." â€“ Mr.X</em>
 </p>
 
 ## Introduction
-**PRO-OSINT** is a powerful, all-in-one Open Source Intelligence (OSINT) tool designed for **reconnaissance**, **digital footprint analysis**, and **automated intelligence gathering**. With a sleek **cyberpunk neon interface**, it packs **40+ integrated modules** covering usernames, emails, phone numbers, names, and domains – without requiring any paid APIs. The engine works flawlessly on **Linux**, **Termux (Android)**, and **Windows**, and is built for both interactive menu use and headless CLI automation.
+**PRO-OSINT** is a powerful, all-in-one Open Source Intelligence (OSINT) tool designed for **reconnaissance**, **digital footprint analysis**, and **automated intelligence gathering**. With a sleek **cyberpunk neon interface**, it packs **40+ integrated modules** covering usernames, emails, phone numbers, names, and domains â€“ without requiring any paid APIs. The engine works flawlessly on **Linux**, **Termux (Android)**, and **Windows**, and is built for both interactive menu use and headless CLI automation.
 
 ## Installation
 ```bash
@@ -34,23 +34,23 @@ $ python3 pro-osint.py --check                 # verify tool availability
 ```
 
 ## Features
-- **40+ Integrated Modules** – Username (Sherlock, Maigret, Instagram, Facebook, TikTok, etc.), Email (Holehe, Gravatar, GitHub by email), Phone (Ignorant, PhoneInfoga, phone_meta), Domain (WHOIS, DNS), Name dorks and more.
-- **Zero API Keys** – Native scrapers, public archives (Wayback Machine, Pastebin dumps), and free CLI tools – no paid subscriptions.
-- **Termux Optimized** – Works out of the box on Android (no root required).
-- **Cyberpunk UI** – Neon colors, animated loading sequence, author info card, and interactive menu.
-- **Smart Target Detection** – Automatically identifies usernames, emails, phone numbers, names, and domains.
-- **Pivot Automation** – Extracts new emails, usernames, or names from results and recursively investigates them (-P flag).
-- **Rate Limiting & Caching** – Avoids IP bans and speeds up repeated searches.
-- **MultiFormat Reports** – Export full investigation as JSON, TXT, or HTML (collapsible findings, pivot suggestions).
-- **Fallback Mechanisms** – Gracefully handles missing external tools and uses purePython native modules where possible.
-- **Builtin Setup & Update** – --setup installs all dependencies (Sherlock, Maigret, Holehe, etc.), --update upgrades them.
+- **40+ Integrated Modules** â€“ Username (Sherlock, Maigret, Instagram, Facebook, TikTok, etc.), Email (Holehe, Gravatar, GitHub by email), Phone (Ignorant, PhoneInfoga, phone_meta), Domain (WHOIS, DNS), Name dorks and more.
+- **Zero API Keys** â€“ Native scrapers, public archives (Wayback Machine, Pastebin dumps), and free CLI tools â€“ no paid subscriptions.
+- **Termux Optimized** â€“ Works out of the box on Android (no root required).
+- **Cyberpunk UI** â€“ Neon colors, animated loading sequence, author info card, and interactive menu.
+- **Smart Target Detection** â€“ Automatically identifies usernames, emails, phone numbers, names, and domains.
+- **Pivot Automation** â€“ Extracts new emails, usernames, or names from results and recursively investigates them (-P flag).
+- **Rate Limiting & Caching** â€“ Avoids IP bans and speeds up repeated searches.
+- **MultiFormat Reports** â€“ Export full investigation as JSON, TXT, or HTML (collapsible findings, pivot suggestions).
+- **Fallback Mechanisms** â€“ Gracefully handles missing external tools and uses purePython native modules where possible.
+- **Builtin Setup & Update** â€“ --setup installs all dependencies (Sherlock, Maigret, Holehe, etc.), --update upgrades them.
 
 ## Instructions
 1. **First**: Install the tool using the commands above.
-2. **Second**: Run python3 pro-osint.py – the loading screen will appear.
+2. **Second**: Run python3 pro-osint.py â€“ the loading screen will appear.
 3. **Third**: Choose Option 1 from the interactive menu and enter your target (username, email, phone, name, or domain).
       Alternatively, run a command directly, e.g. python3 pro-osint.py +6281234567890.
-4. **Fourth**: Select a scan mode – quick (only external tools), standard (balanced), deep (all available modules).
+4. **Fourth**: Select a scan mode â€“ quick (only external tools), standard (balanced), deep (all available modules).
 5. **Last**: At the end, you will be prompted to save a report (JSON/TXT/HTML) to the results folder.
 
 ## Observation
