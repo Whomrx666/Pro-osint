@@ -42,8 +42,8 @@ $ python3 pro-osint.py --check                 # verify tool availability
 - **Pivot Automation** – Extracts new emails, usernames, or names from results and recursively investigates them (-P flag).
 - **Rate Limiting & Caching** – Avoids IP bans and speeds up repeated searches.
 - **MultiFormat Reports** – Export full investigation as JSON, TXT, or HTML (collapsible findings, pivot suggestions).
-- **Fallback Mechanisms** – Gracefully handles missing external tools and uses purePython native modules where possible.
-- **Builtin Setup & Update** – --setup installs all dependencies (Sherlock, Maigret, Holehe, etc.), --update upgrades them.
+- **Fallback Mechanisms** – Gracefully handles missing external tools and uses pure Python native modules where possible.
+- **Built in Setup & Update** – --setup installs all dependencies (Sherlock, Maigret, Holehe, etc.), --update upgrades them.
 
 ## Instructions
 1. **First**: Install the tool using the commands above.
