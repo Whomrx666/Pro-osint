@@ -77,5 +77,7 @@ This tool is intended for **educational and ethical hacking purposes only**. Una
 ---
 
 <p align="left">
-  <img src="https://img.shields.io/badge/_Thank_you_for_visiting!-808080?style=for-the-badge&logo=github" alt="Thanks badge"/>
+  <img src="https://img.shields.io/badge/🌟_Thank_you_for_visiting!-808080?style=for-the-badge&logo=github" alt="Thanks badge"/>
 </p>
+
+---
